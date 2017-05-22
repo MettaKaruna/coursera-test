@@ -1,0 +1,47 @@
+.row {
+  width: 100%;  
+}
+
+div {
+    position: relative;
+}
+
+div > section {
+  box-sizing: border-box;
+  position: relative;
+  height: 150px;
+  width:100%;
+  margin-left: 4.165%;
+  margin-right: 4.165%;
+  margin-bottom: 20px; 
+  padding: 20px;
+  font-family: Helvetica;
+  font-size: 12pt;
+  color: red;
+  background-color: grey;
+}
+
+p {
+  position: relative;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  margin-top:50px;
+  color: black;
+  padding: 30px;
+  overflow: auto; 
+  font-size: 1em;
+}
+
+h3 {
+    box-sizing: border-box;
+    position: absolute;
+    padding: 20px;
+    margin-bottom:50px;
+    color: black;
+    background-color: red;
+    border: 1px solid black;
+    font-size: 1.25em;
+    top: 0%;
+    right: 0%;
+}
+
